@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&family=Contrail+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+  background-color: black;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/imagenes/Starship/wallpaperbetter.com_7680x4320.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.starship-inicio {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/imagenes/Starship/wallpaperbetter.com_1360x768.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.falcon-inicio {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/imagenes/falcon/901951.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.human-inicio {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/imagenes/human/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Contactos-inicio {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/imagenes/dragon/thumb-1920-940017.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 400px;
+  margin-left: -50px;
+}
+
+.bar-btn {
+  font-size: 25px;
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.nav-menu {
+  position: fixed;
+  width: 100%;
+  height: 0vh;
+  top: 100px;
+  background-color: rgba(0, 0, 0, 0.95);
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.nav-menu li {
+  display: none;
+  line-height: 30px;
+  margin: 50px 0;
+  transition: all 1s;
+}
+
+.nav-menu li a {
+  color: aqua;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.nav-menu li a.active, .nav-menu li a:hover {
+  color: rgb(212, 250, 0);
+  transition: 0.2s;
+}
+
+#check {
+  display: none;
+}
+
+#check:checked ~ .nav-menu {
+  height: 100vh;
+}
+
+#check:checked ~ .nav-menu li {
+  display: block;
+}
+
+.banner-text {
+  padding: 0 30px;
+  margin-top: 300px;
+  text-align: start;
+  color: white;
+}
+
+.banner-text h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.button1 {
+  margin-right: 40px;
+  padding: 10px 30px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.button1:hover {
+  background-color: rgba(64, 62, 167, 0.616);
+  color: black;
+  transition: 0.6s;
+}
+
+.Falcon-img {
+  background-image: url("/imagenes/Starship/falconnn.jpg");
+  width: 100%;
+  height: 106vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-text-falcon {
+  padding: 0 30px;
+  margin-top: 0px;
+  text-align: start;
+  color: white;
+}
+
+.banner-text-falcon h2 {
+  padding-top: 520px;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.Human-img {
+  background-image: url("/imagenes/human/maxresdefault.jpg");
+  width: 100%;
+  height: 106vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-text-human {
+  padding: 0 30px;
+  margin-top: 0px;
+  text-align: start;
+  color: white;
+}
+
+.banner-text-human h2 {
+  padding-top: 520px;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.text-descrip {
+  background-color: black;
+  color: white;
+  position: relative;
+  height: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  padding: 100px 50px;
+  text-align: left;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  font-size: 18px;
+}
+
+.img-descrip {
+  width: 65vh;
+}
+
+.registro {
+  width: 400px;
+  background-color: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+.registro h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.registro h4 h6 {
+  height: 40px;
+  align-items: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.controls {
+  width: 100%;
+  background-color: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.botons {
+  width: 100%;
+  border: none;
+  background-color: #1f53c5;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.pie {
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  font-size: x-large;
+}
+
+.logo-fin {
+  width: 41vh;
+  margin-left: -25px;
+}
+
+.pie .iconos {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.pie .iconos .fab {
+  padding: 1rem;
+}
+
+.fa-facebook, .fa-whatsapp {
+  background-color: rgb(7, 71, 131);
+}
+
+.fa-instagram {
+  background-color: #8b0960;
+}
+
+.fa-whatsapp {
+  background-color: #3fda10;
+}
+
+@media screen and (min-width: 1322px) {
+  .logo {
+    margin-left: 50px;
+  }
+  nav {
+    height: 100px;
+  }
+  .bar-btn {
+    display: none;
+  }
+  .nav-menu {
+    position: relative;
+    height: 100px;
+    top: 0;
+    background: none;
+    transition: none;
+    text-align: right;
+    margin-right: 50px;
+  }
+  .nav-menu li {
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 20px;
+    transition: none;
+  }
+  .nav-menu li a {
+    font-size: 20px;
+  }
+  .banner-text h2 {
+    font-size: 70px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 965px) {
+  .text-descrip {
+    flex-direction: column;
+  }
+  .img-descrip {
+    width: 102%;
+    height: 55%;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 601px) {
+  .logo-fin {
+    width: 0;
+    height: 0;
+  }
+  .iconos {
+    margin: 5px;
+    padding-right: 10%;
+  }
+  .logo {
+    width: 40vh;
+  }
+}
+@media screen and (max-width: 601px) {
+  .banner-text-human h2 {
+    padding-top: 431px;
+  }
+  .banner-text-falcon h2 {
+    padding-top: 381px;
+  }
+  .banner-text {
+    margin-top: 240px;
+  }
+}/*# sourceMappingURL=estilo.css.map */

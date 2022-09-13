@@ -1,0 +1,144 @@
+body{
+    font-family: "Cabin", sans-serif;
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/imagenes/Starship/wallpaperbetter.com_7680x4320.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.starship-inicio{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/imagenes/Starship/wallpaperbetter.com_1360x768.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.falcon-inicio{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/imagenes/falcon/901951.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.human-inicio{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/imagenes/human/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.Contactos-inicio{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/imagenes/dragon/thumb-1920-940017.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 400px;
+    margin-left: -50px;
+}
+
+.bar-btn{
+    font-size: 25px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+
+.nav-menu{
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 100px;
+    background-color: rgba(0,0,0,.95 );
+    text-align: center;
+    transition: all .5s;
+}
+
+.nav-menu li{
+    display: none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all 1s;
+}
+
+.nav-menu li a{
+    color: aqua;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-menu li a.active, .nav-menu li a:hover{
+    color: rgb(212, 250, 0);
+    transition: .2s;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked ~ .nav-menu{
+    height: 100vh;
+}
+
+#check:checked ~ .nav-menu li{
+    display: block;
+}
+
+.banner-text{
+    padding: 0 30px;
+    margin-top: 300px;
+    text-align: start;
+    color: white;
+}
+
+.banner-text h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.button1{
+    margin-right: 40px;
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.button1:hover{
+    background-color: rgba(64, 62, 167, 0.616);
+    color: black;
+    transition: .6s;
+}
+
+

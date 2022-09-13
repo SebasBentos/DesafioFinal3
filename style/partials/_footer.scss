@@ -1,0 +1,60 @@
+.pie {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    
+  }
+
+  .logo-fin{
+    width: 41vh;
+    margin-left: -25px;
+  }
+  .pie .iconos{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .pie .iconos .fab {
+    padding: 1rem;
+  }
+  
+  .fa-facebook, .fa-whatsapp {
+    background-color: rgb(7, 71, 131);
+  }
+  
+  .fa-instagram {
+    background-color: #8b0960;
+  }
+  
+  .fa-whatsapp {
+    background-color: #3fda10;
+  }
+
+  @each $redsocial, $colordered in $redes {
+    .fa-#{$redsocial}{
+        background-color: $colordered;
+    }
+}
+
+.fa-facebook{
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+
+    &:hover {
+        background-color: darkred;
+    }
+
+}
+
+.fa-instragram{
+    @extend .fa-facebook;
+}
+
+.fa-whatsapp{
+    @extend .fa-facebook;
+}

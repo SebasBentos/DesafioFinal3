@@ -1,0 +1,94 @@
+
+
+
+
+
+@media screen and (min-width: 1322px){
+    .logo{
+        margin-left: 50px;
+    }
+
+    nav{
+        height: 100px;
+    }
+
+    .bar-btn{
+        display: none;
+
+    }
+
+    .nav-menu{
+        position: relative ;
+        height: 100px;
+        top: 0;
+        background: none;
+        transition: none;
+        text-align: right;
+        margin-right: 50px;
+    }
+
+    .nav-menu li {
+        display: inline-block;
+        line-height: 100px;
+        margin: 0 20px;
+        transition: none;
+        
+
+    }
+
+    .nav-menu li a{
+        font-size: 20px;
+
+    }
+
+    .banner-text h2{
+        font-size: 70px;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 965px){
+    .text-descrip{
+        flex-direction: column;
+    }
+    .img-descrip{
+        width: 102%;
+        height: 55%;
+        margin-top: 20px;
+    
+    }
+}
+
+
+@media screen and (max-width: 601px) {
+    .logo-fin{
+        width: 0;
+        height: 0;
+    }
+    .iconos{
+        margin: 5px;
+        padding-right: 10%;
+    }
+    .logo{
+        width: 40vh;
+
+    }
+    
+    
+    
+}
+
+
+@media screen and (max-width: 601px){
+    .banner-text-human h2{
+        padding-top: 431px;
+    }
+
+    .banner-text-falcon h2{
+        padding-top: 381px
+    }
+    .banner-text{
+        margin-top: 240px;
+    }
+}
